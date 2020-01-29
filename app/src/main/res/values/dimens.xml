@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="power_button_padding">32dp</dimen>
+    <dimen name="signal_button_height">200dp</dimen>
+    <dimen name="spacing_medium">24dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="press_button_size">200dp</dimen>
+    <dimen name="press_button_corner">100dp</dimen>
+    <dimen name="press_button_padding">40dp</dimen>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="#50000000"
+                android:endColor="#55000000"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/primary_text_light" />
+            <corners
+                android:radius="@dimen/press_button_corner" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+            <size
+                android:width="@dimen/press_button_size"
+                android:height="@dimen/press_button_size" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+                android:endColor="#30000000"
+                android:startColor="#35000000"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/primary_text_light" />
+            <corners
+                android:radius="@dimen/press_button_corner" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+            <size
+                android:width="@dimen/press_button_size"
+                android:height="@dimen/press_button_size" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <gradient
+                android:endColor="#00000000"
+                android:startColor="#00000000"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/primary_text_light" />
+            <corners
+                android:radius="@dimen/press_button_corner" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+            <size
+                android:width="@dimen/press_button_size"
+                android:height="@dimen/press_button_size" />
+        </shape>
+    </item>
+</selector>
